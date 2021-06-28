@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+    <!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Ресторан Дубай</title>
+	<meta name="description" content="Ресторан Дубай">
+	<meta name="author" content="zelim">
+	
+    <!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- CSS
+	================================================== -->
+  	<link rel="stylesheet" href="css/zerogrid.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/phone.css">
+	<link rel="stylesheet" href="css/whatsapp.css">
+	<link rel="stylesheet" href="css/basket-button.css">
+	<link rel="stylesheet" href="css/lightbox.css">
+	
+	<!-- Custom Fonts -->
+    <script src="https://use.fontawesome.com/d78d833653.js"></script>
+	
+	
+	<link rel="stylesheet" href="css/menu.css">
+	<script src="js/jquery1111.min.js" type="text/javascript"></script>
+	
+	<!--[if lt IE 8]>
+       <div style=' clear: both; text-align:center; position: relative;'>
+         <a href="http://windows.microsoft.com/en-US/internet-explorer/Items/ie/home?ocid=ie6_countdown_bannercode">
+           <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+        </a>
+      </div>
+    <![endif]-->
+    <!--[if lt IE 9]>
+		<script src="js/html5.js"></script>
+		<script src="js/css3-mediaqueries.js"></script>
+	<![endif]-->
+	
+</head>
+
+<body>
+<a href="basket.html" title="Корзина заказа" rel="noopener noreferrer"><div class="basket-button"><i class="fa fa-shopping-basket"></i><span id="count"></span></div></a>
+<a href="https://api.whatsapp.com/send?phone=79288883178" target="_blank" title="Написать в Whatsapp" rel="noopener noreferrer"><div class="whatsapp-button"><i class="fa fa-whatsapp"></i></div></a>
+<a href="tel:+79288883178" title="Позвонить"><div class="phone-button"><i class="fa fa-phone"></i></div></a>
+<div class="wrap-body">
+	<header class="zerogrid">
+		<img src="./images/log.jpg" alt="logotype" class="responsive" width="500" height="335">
+		<div id='cssmenu' class="align-center">
+			<ul>
+                <li><a href="index.html">Меню</a></li>
+				<li><a href="tel:+79288883178">Позвонить</a></li>
+				<li><a href="map.html">На карте</a></li>
+            </ul>
+		</div>
+	</header>
+		<!--////////////////////////////////////Container-->
+		<section id="container">
+			<div class="wrap-container">
+				<!-----------------content-box-1-------------------->
+				<section class="content-box background-gray box-1 zerogrid">
+					<div class="row wrap-box"><!--Start Box-->
+						<div class="col-1-2">
+							<div class="wrap-col">
+								<div style="padding-top: 60px;">
+									<center><img src="images/61.jpg"></center>
+								</div>
+							</div>
+						</div>
+						<div class="col-1-2">
+							<div class="wrap-col">
+								<div class="row">
+									<div class="t-center" style="padding-top: 30px;">
+										<div class="header">
+											<h3><span class="color-red">САЛАТ ЦЕЗАРЬ С ТИГРОВЫМИ КРЕВЕТКАМИ</span></h3>
+										</div>
+										<p>Состав: Салат Романо, тигровые креветки, томаты чери, сухари из багета, сыр пармезан, соус цезарь.</p><br>
+										<a class="button">320 руб.</a><a class="button" onClick="orderAdd('')" style="cursor: pointer;background-color:green;margin:10px"><i class="fa fa-plus"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-----------------content-box-2-------------------->
+				<section class="content-box background-white box-2 zerogrid">
+					<div class="row wrap-box"><!--Start Box-->
+						<div class="col-1-2 f-right">
+							<div class="wrap-col">
+								<div style="padding-top: 60px;">
+									<center><img src="images/62.jpg"></center>
+								</div>
+							</div>
+						</div>
+						<div class="col-1-2">
+							<div class="wrap-col">
+								<div class="row">
+									<div class="t-center" style="padding-top: 30px;">
+										<div class="header">
+											<h3><span class="color-red">САЛАТ АДЕЛАИДА</span></h3>
+										</div>
+										<p>Состав: Креветки тигровые, микс салата, болгарский перец, томаты чери, сыр пармезан, фирменная заправка.</p><br>
+										<a class="button" >320 руб.</a><a class="button" onClick="orderAdd('')" style="cursor: pointer;background-color:green;margin:10px"><i class="fa fa-plus"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-----------------content-box-3-------------------->
+				<section class="content-box background-gray box-3 zerogrid">
+					<div class="row wrap-box"><!--Start Box-->
+						<div class="col-1-2">
+							<div class="wrap-col">
+								<div style="padding-top: 60px;">
+									<center><img src="images/63.jpg"></center>
+								</div>
+							</div>
+						</div>
+						<div class="col-1-2">
+							<div class="wrap-col">
+								<div class="row">
+									<div class="t-center" style="padding-top: 30px;">
+										<div class="header">
+											<h3><span class="color-red">САЛАТ ВЕСЕННИЙ</span></h3>
+										</div>
+										<p>Состав: Огурец, помидор, лук шалот, салат айсберг, оливковое масло.</p><br>
+										<a class="button" >200 руб.</a><a class="button" onClick="orderAdd('')" style="cursor: pointer;background-color:green;margin:10px"><i class="fa fa-plus"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-----------------content-box-4-------------------->
+				<section class="content-box background-white box-2 zerogrid">
+					<div class="row wrap-box"><!--Start Box-->
+						<div class="col-1-2 f-right">
+							<div class="wrap-col">
+								<div style="padding-top: 60px;">
+									<center><img src="images/64.jpg"></center>
+								</div>
+							</div>
+						</div>
+						<div class="col-1-2">
+							<div class="wrap-col">
+								<div class="row">
+									<div class="t-center" style="padding-top: 30px;">
+										<div class="header">
+											<h3><span class="color-red">САЛАТ С РОСТБИФОМ</span></h3>
+										</div>
+										<p>Состав: Микс салата, ростбиф, грецкий орех, болгарский перец, томаты чери, фирменная заправка.</p><br>
+										<a class="button" >320 руб.</a><a class="button" onClick="orderAdd('')" style="cursor: pointer;background-color:green;margin:10px"><i class="fa fa-plus"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-----------------content-box-5-------------------->
+				<section class="content-box background-gray box-1 zerogrid">
+					<div class="row wrap-box"><!--Start Box-->
+						<div class="col-1-2">
+							<div class="wrap-col">
+								<div style="padding-top: 60px;">
+									<center><img src="images/71.jpg"></center>
+								</div>
+							</div>
+						</div>
+						<div class="col-1-2">
+							<div class="wrap-col">
+								<div class="row">
+									<div class="t-center" style="padding-top: 30px;">
+										<div class="header">
+											<h3><span class="color-red">САЛАТ ОТ ШЕФА</span></h3>
+										</div>
+										<p>Состав: Микс салата, авокадо, лук шалот, помидор, огурец, филе цыпленка, фирменный соус.</p><br>
+										<a class="button">290 руб.</a><a class="button" onClick="orderAdd('')" style="cursor: pointer;background-color:green;margin:10px"><i class="fa fa-plus"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-----------------content-box-6-------------------->
+				<section class="content-box background-white box-2 zerogrid">
+					<div class="row wrap-box"><!--Start Box-->
+						<div class="col-1-2 f-right">
+							<div class="wrap-col">
+								<div style="padding-top: 60px;">
+									<center><img src="images/72.jpg"></center>
+								</div>
+							</div>
+						</div>
+						<div class="col-1-2">
+							<div class="wrap-col">
+								<div class="row">
+									<div class="t-center" style="padding-top: 30px;">
+										<div class="header">
+											<h3><span class="color-red">САЛАТ С ХРУСТЯЩИМИ БАКЛАЖАНАМИ</span></h3>
+										</div>
+										<p>Состав: Баклажан, помидор, чеснок, сладкий соус Чили, лук зеленый, кунжут.</p><br>
+										<a class="button" >320 руб.</a><a class="button" onClick="orderAdd('')" style="cursor: pointer;background-color:green;margin:10px"><i class="fa fa-plus"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-----------------content-box-7-------------------->
+				<section class="content-box background-gray box-3 zerogrid">
+					<div class="row wrap-box"><!--Start Box-->
+						<div class="col-1-2">
+							<div class="wrap-col">
+								<div style="padding-top: 60px;">
+									<center><img src="images/73.jpg"></center>
+								</div>
+							</div>
+						</div>
+						<div class="col-1-2">
+							<div class="wrap-col">
+								<div class="row">
+									<div class="t-center" style="padding-top: 30px;">
+										<div class="header">
+											<h3><span class="color-red">САЛАТ ГРЕЧЕСКИЙ</span></h3>
+										</div>
+										<p>Состав: Салат Романо, перец болгарский, помидор, огурец, лук шалот, маслины, сыр фета.</p><br>
+										<a class="button" >200 руб.</a><a class="button" onClick="orderAdd('')" style="cursor: pointer;background-color:green;margin:10px"><i class="fa fa-plus"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-----------------content-box-8-------------------->
+				<section class="content-box background-white box-2 zerogrid">
+					<div class="row wrap-box"><!--Start Box-->
+						<div class="col-1-2 f-right">
+							<div class="wrap-col">
+								<div style="padding-top: 60px;">
+									<center><img src="images/74.jpg"></center>
+								</div>
+							</div>
+						</div>
+						<div class="col-1-2">
+							<div class="wrap-col">
+								<div class="row">
+									<div class="t-center" style="padding-top: 30px;">
+										<div class="header">
+											<h3><span class="color-red">ЦЕЗАРЬ С ЦЫПЛЕНКОМ</span></h3>
+										</div>
+										<p>Состав: Салат Романо, салат айсберг, филе цыпленка, гренки, томаты чери, соус цезарь, сыр пармезан.</p><br>
+										<a class="button" >290 руб.</a><a class="button" onClick="orderAdd('')" style="cursor: pointer;background-color:green;margin:10px"><i class="fa fa-plus"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-----------------content-box-9-------------------->
+				<section class="content-box background-gray box-1 zerogrid">
+					<div class="row wrap-box"><!--Start Box-->
+						<div class="col-1-2">
+							<div class="wrap-col">
+								<div style="padding-top: 60px;">
+									<center><img src="images/81.jpg"></center>
+								</div>
+							</div>
+						</div>
+						<div class="col-1-2">
+							<div class="wrap-col">
+								<div class="row">
+									<div class="t-center" style="padding-top: 30px;">
+										<div class="header">
+											<h3><span class="color-red">ТАРЕЛКА С СЫРОМ И ОВОЩАМИ</span></h3>
+										</div>
+										<p>Состав: Огурец, помидор, болгарский перец, сыр голландский, зелень, лук зеленый.</p><br>
+										<a class="button">390 руб.</a><a class="button" onClick="orderAdd('')" style="cursor: pointer;background-color:green;margin:10px"><i class="fa fa-plus"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-----------------content-box-10-------------------->
+				<section class="content-box background-white box-2 zerogrid">
+					<div class="row wrap-box"><!--Start Box-->
+						<div class="col-1-2 f-right">
+							<div class="wrap-col">
+								<div style="padding-top: 60px;">
+									<center><img src="images/82.jpg"></center>
+								</div>
+							</div>
+						</div>
+						<div class="col-1-2">
+							<div class="wrap-col">
+								<div class="row">
+									<div class="t-center" style="padding-top: 30px;">
+										<div class="header">
+											<h3><span class="color-red">ТЕПЛЫЙ САЛАТ С ТЕЛЯТИНОЙ</span></h3>
+										</div>
+										<p>Состав: Пекинская капуста, салат айсберг, помидор, огурец, лук шалот, телячья вырезка, чеснок, соевый соус, карамельный соус, грецкий орех.</p><br>
+										<a class="button" >310 руб.</a><a class="button" onClick="orderAdd('')" style="cursor: pointer;background-color:green;margin:10px"><i class="fa fa-plus"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-----------------content-box-11-------------------->
+				<section class="content-box background-gray box-3 zerogrid">
+					<div class="row wrap-box"><!--Start Box-->
+						<div class="col-1-2">
+							<div class="wrap-col">
+								<div style="padding-top: 60px;">
+									<center><img src="images/83.jpg"></center>
+								</div>
+							</div>
+						</div>
+						<div class="col-1-2">
+							<div class="wrap-col">
+								<div class="row">
+									<div class="t-center" style="padding-top: 30px;">
+										<div class="header">
+											<h3><span class="color-red">САЛАТ ФУНЧОЗА</span></h3>
+										</div>
+										<p>Состав: Фунчоза, болгарский перец, томаты чери, огурец, телячья вырезка, шампиньоны, соевый соус, кунжут.</p><br>
+										<a class="button" >300 руб.</a><a class="button" onClick="orderAdd('')" style="cursor: pointer;background-color:green;margin:10px"><i class="fa fa-plus"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-----------------content-box-12-------------------->
+				<section class="content-box background-white box-2 zerogrid">
+					<div class="row wrap-box"><!--Start Box-->
+						<div class="col-1-2 f-right">
+							<div class="wrap-col">
+								<div style="padding-top: 60px;">
+									<center><img src="images/84.jpg"></center>
+								</div>
+							</div>
+						</div>
+						<div class="col-1-2">
+							<div class="wrap-col">
+								<div class="row">
+									<div class="t-center" style="padding-top: 30px;">
+										<div class="header">
+											<h3><span class="color-red">ТАРЕЛКА С ФРУКТАМИ</span></h3>
+										</div>
+										<p>Состав: Ананас, зеленое яблоко, апельсин, груша, банан, виноград, киви.</p><br>
+										<a class="button" >560 руб.</a><a class="button" onClick="orderAdd('')" style="cursor: pointer;background-color:green;margin:10px"><i class="fa fa-plus"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</section>
+		<hr class="line">
+		<!--////////////////////////////////////Footer-->
+		<footer>
+			<div class="wrap-footer">
+				<div class="zerogrid">
+					<div class="row">
+						<div class="col-1-3">
+							<div class="wrap-col">
+								<p><a class="s11" href="https://www.on.com.ru" title="Разработка сайтов">  Сайт разработан OnComRu</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+<script src="js/lightbox-plus-jquery.min.js"></script>
+</div>
+<script type="text/javascript">
+document.getElementById("count").innerHTML = localStorage.length;
+function orderAdd(product){
+let value = ' ' + product + ' ';
+let key = new Date;
+localStorage.setItem(key, value);
+document.getElementById("count").innerHTML = localStorage.length;
+}
+</script>
+</body>
+</html>
