@@ -1,7 +1,7 @@
 .whatsapp-button {
     position: fixed;
-    left: 62px;
-    bottom: 20px;
+    left: 52px;
+    bottom: 0px;
     transform: translate(-50%, -50%);
     background: #25D366;
     border-radius: 50%;
@@ -117,7 +117,7 @@
 }
 @media (max-width : 800px) {  
 .whatsapp-button {   
-    bottom: 10px; /*отступ кнопки снизу от экрана*/
-    left: 60px; /*отступ кнопки слева от экрана(right - справа)*/
+    bottom: 0px; /*отступ кнопки снизу от экрана*/
+    left: 52px; /*отступ кнопки слева от экрана(right - справа)*/
   }
 }
